@@ -1,0 +1,113 @@
+@media only screen and (max-width: 768px) {
+  section {
+    display: block;
+    &.first-section{
+      .header-mobile{
+        .image-logo{
+          padding: 15px 25px 15px 12px;
+        }
+      }
+      .breadcrumb-full{
+        padding-top: 0;
+        .breadcrumb{
+          padding: 14px 15px 14px;  
+        }
+      }
+    }
+    &.a-mofarrej-box{
+      padding: 0 15px 15px;
+      .content-texto{
+        p{
+          font-size:13px;
+          line-height:18px;
+        }
+      }
+    }
+    &.content-icon {
+      .slide-mobile-cont{
+        overflow-x: overlay;
+        display: flex;
+        flex-flow: unset;
+        padding: 0 15px;
+        .block-icon {
+          min-width: 85%;
+          max-width: 85%;
+          flex: 0 0 85%;
+        }
+      }
+    }
+    &.slider-e-texto{
+      padding-bottom: 0;
+      .content-slider-e-texto{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        .slider-img{
+          padding:0;
+          order:1;
+          .slick-arrow{
+            bottom: inherit;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+        .content-texto{
+          margin-top: 0;
+          margin-bottom: 20px;
+          padding: 0px 30px;
+          h2{
+            font-size: 30px;
+            line-height: 42px;
+          }
+          p{
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }        
+      }
+    }
+    &.text-slider-amplo{
+      margin: 35px 0 15px;
+      background: #fff;
+      .content-itens{
+        padding: 0;
+        .slider-amplo-content {
+          padding: 0 30px;
+          h2{
+            font-size:42px;
+            line-height: 50px;
+          }
+          p{
+            font-size: 15px;
+            line-height: 26px;            
+          }
+        }
+        .slider-content{
+          margin-top: 25px;
+          padding: 0;
+        }
+      }
+    }
+    &.detalhes-projetos{
+      padding:0 25px 5px;
+      margin-top: 0;
+      .content-titulo{
+        &:before{
+          width: 40px;
+        }
+        .title{
+          margin-bottom: 35px;
+        }
+      }
+      .content-list{
+        padding:0;
+        .list-detalhes-projeto {
+          padding-left: 21px;
+          li{
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}

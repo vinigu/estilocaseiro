@@ -1,0 +1,29 @@
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+// Variables 
+@import '../src/style/variables/fonts.scss';
+@import '../src/style/variables/colors.scss';
+@import '../src/style/variables/general.scss';
+
+// Componentes
+@import '../src/style/components/header.scss';
+@import '../src/style/components/headeribirapuera.scss';
+@import '../src/style/components/prefooter.scss';
+@import '../src/style/components/footer.scss';
+
+// Responsives Componentes
+@import '../src/style/responsive/components/header.scss';
+@import '../src/style/responsive/components/footer.scss';
+
+// Pages
+@import '../src/style/pages/home.scss';
+@import '../src/style/pages/ibirapuera.scss';
+@import '../src/style/pages/a-estilo-caseiro.scss';
+
+
+// Responsives Pages
+@import '../src/style/responsive/pages/home.scss';
+@import '../src/style/responsive/pages/ibirapuera.scss';
+@import '../src/style/responsive/pages/a-estilo-caseiro.scss';

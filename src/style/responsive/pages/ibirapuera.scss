@@ -1,0 +1,74 @@
+@media only screen and (max-width: 768px) {
+  section {
+    &.destaque-ibira {
+      .itens-projeto-destaque {
+        flex-direction: column;
+        padding: 0;
+        .black-part {
+          margin-top: 0;
+          flex-direction: row;
+          padding: 15px 35px;
+          .icon-arrow-down {
+            display: none;
+          }
+          img {
+            max-width: 50%;
+          }
+        }
+        .item-espec {
+          max-width: 50%;
+          float: left;
+          background-color: #f4f4f4;
+        }
+      }
+    }
+    &.texto-e-titulo {
+      flex-direction: column;
+      padding: 15px 20px;
+      .content-titulo {
+        padding-left: 0;
+      }
+    }
+    &.slider-e-texto {
+      .content-slider-e-texto {
+        display: unset;
+        padding: 15px 20px;
+        .content-texto{
+          margin: 15px 0;
+        }
+      }
+    }
+    &.text-slider-amplo{
+      .content-itens{
+        flex-direction: column;
+        .slider-content{
+          margin: 15px 0 ;
+        }
+      }
+    }
+    &.espacos-e-medidas{
+      .itens{
+        .item-espacos{
+          padding: 10px 20px;
+        }
+      }
+    }
+    &.parque-ibirapuera{
+      margin-bottom: 0;
+      .itens-parque{
+        .image-content{
+          margin: 20px 0;
+        }
+      }
+    }
+    &.como-chegar {
+      padding: 15px 20px;
+      .como-chegar-img{
+        margin-top: 20px;
+      }
+    }
+    &.fale-conosco{
+      padding: 15px 20px;
+    }
+  }
+}

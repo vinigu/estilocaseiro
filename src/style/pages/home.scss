@@ -1,0 +1,93 @@
+section {
+  &.first-section {
+    position: relative;
+  }
+  &.projeto-destaque {
+    .itens-projeto-destaque {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 20px 0px;
+      .content-destaque-lugar {
+        margin-top: -80px;
+        background-color: $regular-brown;
+        padding: 30px;
+        color: white;
+        .posicao {
+          font-size: 12px;
+          text-transform: uppercase;
+          font-weight: bold;
+          padding: 5px 10px;
+          border: 1px solid white;
+          margin-bottom: 10px;
+          font-family: $pt-serif;
+        }
+        .lugar {
+          font-size: 40px;
+          margin-top: 10px;
+        }
+      }
+      .item-espec {
+        text-align: center;
+        span {
+          display: block;
+          font-family: $pt-serif;
+
+          &.black-item {
+            color: $black-footer;
+            font-size: 24px;
+          }
+          &.gray-item {
+            color: #959595;
+            font-size: 14px;
+          }
+        }
+      }
+      a {
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+  &.content-sobre-mofarre {
+    margin: 50px 0;
+    .sobre-home {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      .content-title {
+        margin-bottom: 15px;
+        h2 {
+          font-family: $pt-serif;
+          color: #c4c4c4;
+          font-size: 60px;
+        }
+        &:before {
+          content: "";
+          display: block;
+          height: 2px;
+          width: 50px;
+          background-color: #e14f20;
+        }
+      }
+      .content-text {
+        padding: 30px 90px;
+        background-color: white;
+        position: relative;
+        left: 25px;
+        z-index: 11;
+        width: max-content;
+        max-width: 500px;
+        p {
+          font-size: 15px;
+        }
+        a {
+          button {
+            width: 165px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+  section {
+    &.first-section{
+      position: unset;
+    }
+    &.projeto-destaque {
+      padding: 0;
+      .itens-projeto-destaque {
+        display: unset;
+        .content-destaque-lugar {
+          margin-top: 0;
+          padding: 10px 30px;
+          .lugar {
+            font-size: 27px;
+          }
+        }
+        .item-espec {
+          margin: 15px 0;
+          max-width: 50%;
+          float: left;
+        }
+      }
+    }
+    &.content-sobre-mofarre {
+      .sobre-home {
+        display: flex;
+        flex-direction: column;
+        .content-text {
+          padding: 0;
+          max-width: 100%;
+          left: 0;
+          .content-title{
+            h2{
+              font-size: 40px;
+            }
+          }
+        }
+        .content-image{
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

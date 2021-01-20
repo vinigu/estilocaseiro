@@ -1,0 +1,150 @@
+section {
+  &.first-section {
+    .header-general{
+      top:30px;
+    }  
+    .breadcrumb-full {
+      padding-top:125px;
+      background: $regular-brown;
+      .breadcrumb{
+        font-size: 11px;
+        line-height: 26px;
+        color: #fff;
+        padding: 20px 0 15px;
+        margin: 0;
+        background: transparent; 
+        a{
+          color:#fff;
+          &:hover{
+            color:#f4f4f4;
+            text-decoration: underline;
+          }
+        }
+        .breadcrumb-sep{
+          margin:0 5px;   
+        }
+      }
+    }
+  }
+  &.texto-e-titulo{
+    .content-texto{
+      .title{
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 42px;
+        line-height: 50px; 
+        color: #C4C4C4;
+        margin-bottom: 40px;
+      }
+      &.a-mofarrej{
+        .title{
+          margin-bottom: 30px;    
+        }
+        h2{
+          font-family: $open-sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          color: #C4C4C4;
+          margin-bottom: 20px;
+        }
+        p{
+          max-width: 90%;
+        }
+      }
+    } 
+  }
+  &.content-icon{
+    margin-top: 15px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background: #F4F4F4;
+    .block-icon{
+      margin-bottom: 20px;
+      .block-icon-img{
+        height: 63px;
+        display:flex;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      .block-icon-title{
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 24px;
+        color: #000000;  
+        margin-bottom: 15px;
+      }
+      .block-icon-text{
+        font-size: 14px;
+        line-height: 24px;       
+        color: #000000;     
+        opacity: 0.5;    
+      }
+
+    }
+  }
+  &.slider-e-texto{
+    padding-top: 45px;
+    .content-slider-e-texto{
+      .content-texto{
+        .icon-3-pontos{
+          line-height: 4px;
+        }
+        h2{
+          padding: 22px 0 0;    
+        }    
+      }    
+      .slider-img{
+        .slick-arrow{
+          bottom: 6px;
+          &.slick-next{
+            right: 0px;
+            left: inherit;              
+          }
+        }
+      }
+    }    
+  }
+  &.text-slider-amplo{
+    .slider-amplo-content{
+      h2{
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 60px;
+        color: #000000;            
+      }
+      h3{
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;  
+        margin-bottom: 17px;            
+      }
+    }    
+  }
+  &.detalhes-projetos{
+    .content-titulo{
+      .title{
+        font-size: 42px;
+        line-height: 50px;  
+        color: #959595;
+      }
+    }
+    .content-list {
+      .list-detalhes-projeto{
+        padding-left: 25px;
+        li{
+          font-size: 14px;
+          margin-bottom: 22px;
+        }
+      }
+    }
+  }
+}

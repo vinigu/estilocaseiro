@@ -1,0 +1,42 @@
+@media only screen and (max-width:768px){
+  footer {
+  .content-footer {
+    margin: 0 15px;
+    flex-direction: column;
+      .fi-column{
+        width: 100%;
+        .first-content{
+          margin-right: 0;
+          .image-footer{
+            padding: 0;
+            background-color: unset;
+            max-width: 50%;
+            img{
+              padding: 25px 35px;
+              background-color: white;
+            }
+          }
+          .social-itens{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            max-width: 60%;
+          }
+        }
+      }
+      .sec-column{
+        width: 100%;
+        flex-direction: column;
+        .column-footer{
+          margin: 20px 0;
+        }
+      }
+    }
+    .pos-footer{
+      .content-pos-footer{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+      }
+    }
+  }
+}

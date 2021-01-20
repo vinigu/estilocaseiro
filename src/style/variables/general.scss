@@ -1,0 +1,42 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+a {
+  button {
+    color: #543139;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #543139;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.35s ease-in-out;
+    svg {
+      path{
+        fill: #543139;
+        transition: all 0.35s ease-in-out;
+
+      }
+    }
+    &:hover {
+      background-color: #543139;
+      color: white;
+      svg {
+        path{
+          fill: white;
+        }
+      }
+    }
+  }
+  &:hover{
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,107 @@
+footer {
+  background-color: $black-footer;
+  &.container-fluid {
+    padding: 0;
+  }
+
+  .content-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .fi-column {
+      width: 20%;
+    }
+    .sec-column {
+      display: flex;
+      width: 80%;
+      justify-content: space-between;
+    }
+    .column-footer {
+      color: white;
+      h4 {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      a {
+        font-size: 13px;
+        color: white;
+        transition: all 0.35s ease-in;
+        &:hover {
+          color: $hover-link-footer;
+        }
+      }
+      &.first-content {
+        margin-right: 40px;
+        .image-footer {
+          padding: 35px 28px;
+          background-color: white;
+        }
+        .social-itens {
+          margin-top: 10px;
+          margin-bottom: 50px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          span {
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+          }
+          .icon-social {
+            padding: 3px 10px 5px 10px;
+            border: 1px solid rgba($color: #ffffff, $alpha: 0.2);
+            transition: all 0.35s ease-in;
+            svg {
+              transition: all 0.35s ease-in;
+            }
+            &:hover {
+              background-color: white;
+              svg,
+              path {
+                fill: $black-footer;
+              }
+            }
+          }
+        }
+      }
+      &.second-content {
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+      }
+      &.third-content {
+        p {
+          font-size: 13px;
+          color: white;
+        }
+      }
+    }
+  }
+  .pos-footer {
+    background-color: white;
+    .content-pos-footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      .copyrigth {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+      }
+      .image7ways {
+        margin: 20px 0;
+        a{
+          img{
+            max-width: 100px;
+          }
+        }
+      }
+    }
+  }
+}

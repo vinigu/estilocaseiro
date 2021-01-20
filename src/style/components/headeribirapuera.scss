@@ -1,0 +1,82 @@
+.header-general {
+  header {
+    &.header-ibira {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+      background: #fff;
+      border-radius: 4px;
+      .image-logo {
+        padding: 5px 10px;
+      }
+      .itens-menu {
+        background-color: #2b6a43;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        .entre-em-contato {
+          font-weight: bold;
+          text-transform: uppercase;
+          color: white;
+          padding-left: 165px;
+          margin-right: 20px;
+        }
+        ul {
+          background-color: #30965f;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          list-style: none;
+          margin: 0;
+          padding: 0 15px;
+          li {
+            padding: 0 15px;
+            a {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              color: white;
+              padding: 20px 0;
+              position: relative;
+              &:after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 0;
+                left: 15px;
+                border-bottom: 3px solid transparent;
+                transition: all 0.35s ease-in-out;
+              }
+              &:hover {
+                text-decoration: none;
+                &:after {
+                  width: 100%;
+                  border-bottom: 3px solid white;
+                  transition: all 0.35s ease-in-out;
+                }
+              }
+              .item-atendimento {
+                font-size: 11px;
+                font-weight: bold;
+                text-transform: uppercase;
+              }
+              .item-por {
+                font-size: 14px;
+                font-weight: bold;
+                text-transform: uppercase;
+              }
+              .icon {
+                padding: 0 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
